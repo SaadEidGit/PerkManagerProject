@@ -17,6 +17,7 @@ PerkHub enables users to create profiles with various memberships and associated
 
 
 ## UML Diagram
-![UML Diagram](https://github.com/SaadEidGit/PerkManagerProject/assets/113065070/661654be-62fb-4bf3-ae16-4c7d88615603)
+
+![UML Diagram](https://github.com/SaadEidGit/PerkManagerProject/assets/113065070/b28054d5-a1fc-4396-87fd-8ede69a22956)
 
 
