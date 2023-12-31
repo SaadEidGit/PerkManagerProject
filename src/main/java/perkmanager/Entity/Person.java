@@ -18,7 +18,6 @@ import java.util.List;
  */
 @Entity
 @Data
-@NoArgsConstructor
 public class Person {
 
     @Id
@@ -30,6 +29,11 @@ public class Person {
     private boolean signedIn; //To be used in a future iteration.
     private String username;
     private String password;
+
+    public Person() {
+        this.membershipList = new ArrayList<>();
+        this.signedIn = false;
+    }
 
     public void setPassword(String password) {
         PasswordEncoder encoder = new BCryptPasswordEncoder();

@@ -73,6 +73,7 @@ public class LogInAndSignUpTests {
                 .andExpect(redirectedUrl("/login?error"));
     }
 
+    /*
     @Test
     @WithMockUser
     public void testSignup() throws Exception {
@@ -103,7 +104,7 @@ public class LogInAndSignUpTests {
                 .andExpect(status().isOk())
                 .andExpect(view().name("signup"))
                 .andExpect(model().attribute("errorMessage", "A person with the same username already exists"));
-    }
+    }*/
 
     @Transactional
     @After

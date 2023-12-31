@@ -10,7 +10,6 @@ import java.util.Objects;
 
 @Entity
 @Data
-@NoArgsConstructor
 public class Membership {
 
     @Id
@@ -25,6 +24,9 @@ public class Membership {
     private String name;
     private String imagePath;
 
+    public Membership(){
+        this.perkList = new ArrayList<>();
+    }
     public void addPerk(Perk perk) {
         this.perkList.add(perk);
     }
@@ -36,7 +38,6 @@ public class Membership {
         addPerk(perk);
         return perk;
     }
-
 
     @Override
     public String toString() {
