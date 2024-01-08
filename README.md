@@ -1,6 +1,6 @@
 # PerkHub
 
-PerkHub is a web application that allows users to manage their memberships, add perks, and discover discounts associated with their memberships. This README file provides an overview of the project, its milestones, and how to set it up.
+PerkHub is a web application that allows users to manage their memberships, add perks, and discover discounts associated with their memberships.
 
 ## Project Description
 
