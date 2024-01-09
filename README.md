@@ -1,4 +1,4 @@
-# PerkHub
+# Perk Manager Project (PerkHub)
 
 PerkHub is a web application that allows users to manage their memberships, add perks, and discover discounts associated with their memberships.
 
