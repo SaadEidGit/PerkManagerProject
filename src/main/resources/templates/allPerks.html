@@ -12,13 +12,17 @@
   
   <div th:fragment="content" class="container py-3">
 
-    <h1 class="mb-3">Perks</h1>
+    <h1 class="mb-3">Search Perks</h1>
 
-    <div class="d-flex justify-content-end">
-      <input type="text" id="search-perk" placeholder="Search by name or product">
-      <button type="submit" id="search-perks">Search</button>
-      <button type="submit" id="sort-usefulness">Sort Perks By Usefulness</button>
-      <button type="submit" id="sort-expiry-date">Sort Perks By Expiry Date</button>
+    <div class="justify-content-start mx-3">
+      <input class="form-control my-2" type="text" id="search-perk" placeholder="Search by name or product">
+      <button class="btn btn-primary" type="submit" id="search-perks">Search</button>
+      <button class="btn btn-primary" type="submit" id="sort-usefulness">Sort Perks By Usefulness</button>
+      <button class="btn btn-primary" type="submit" id="sort-expiry-date">Sort Perks By Expiry Date</button>
+    </div>
+
+    <div class="row pt-3">
+      <h2 class="">List of Perks</h2>
     </div>
 
     <!--if there are no perks, this will not be displayed-->
@@ -33,7 +37,7 @@
 
     <div th:if="${perks == null or #lists.isEmpty(perks)}">
 
-      <div class="row border-3 py-3">
+      <div class="row border-3">
         <h3 class="mb-3">No Perks Available</h3>
       </div>
 

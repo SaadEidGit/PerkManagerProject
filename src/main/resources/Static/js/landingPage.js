@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 // If the user is logged in, create a new element with the welcome message and the user's name
                 let welcomeMessage = document.createElement("span");
                 welcomeMessage.textContent = "Welcome, " + data.userName;
+                welcomeMessage.style.marginRight = "15px";
 
                 // Create a logout button element
                 let logoutButton = document.createElement("button");
